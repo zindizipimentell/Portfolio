@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+
+}
+
+li{
+    list-style: none;         /*tira as bolinhas da lista não ordenada*/
+    display: inline;
+    margin-right: 40px;
+
+}
+
+.cabecalho{
+    background-color: #BE89CB;
+    height: 103px;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;         /*tira o sublinhado do texto*/
+
+}
+
+.perfil{
+    background-color: #EDEAEA;
+    height: 579px;
+    text-align: center;
+
+}
+
+.minha-descricao{
+    font-size: 14px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+
+}
+
+img{
+    margin-top: 48px;
+    margin-bottom: 26px;
+
+}
+
+h3{
+    font-size: 15px;
+    color: #BE89CB
+}
+
+.formacao{
+    background-color: #443D3D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    max-width: 100%;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+
+}
+
+.artigo-formacao{
+    display: flex;
+    flex-direction: colum;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titulo-secao{
+    font-size: 24px;
+    color: #ff4dbc;
+    margin-bottom: 50px;
+}
+
+.lista-formacao{
+    padding-left: 32px;
+}
+
+
+.titulo-formacao{
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700px;
+}
+
+.link-formacao{
+    color: #2F80ED;
+    font-size: 14px;
+}
+
+.descricao-formacao{
+    font-size: 14px;
+    margin-top: 8px;
+    color: #828282;
+    margin-bottom: 53px;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    height: 198px;
+    background-color: #BE89CB;
+}
+
+.lista-rodape li{ 
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 28px;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container-rodape{
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.projetos{
+    background-color: #443D3D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    max-width: 100%;
+}
+
+.artigo-projetos{
+    display: flex;
+    flex-direction: colum;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.titulo-projetos{
+        font-size: 16px;
+        color: #828282;
+        font-weight: 700px;
+}        
+
+
+.lista-projetos{
+    padding-left: 32px;
+}
+
+.link-projetos{
+    color: #2F80ED;
+    font-size: 14px;
+}
+
+.descricao-projetos{
+    font-size: 14px;
+    margin-top: 8px;
+    color: #828282;
+    margin-bottom: 53px;
+}
+
+#portfolio{
+    background-color: #EDEAEA;
+
+}
